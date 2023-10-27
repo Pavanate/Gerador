@@ -5,10 +5,6 @@ let sizePassword = document.querySelector("#valor");
 let password = document.querySelector("#password");
 
 let containerPassword = document.querySelector("#container-password");
-containerPassword.addEventListener("click", function() {
-    copyPassword();
-});
-
 
 let charset = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!';
 let novaSenha = '';
